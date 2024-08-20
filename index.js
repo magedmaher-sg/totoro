@@ -150,7 +150,7 @@ function constructRoute(endpoint) {
     endpointURL,
     endpoint.config.middleware,
     async (req, res, next) => {
-      return await endpoint.config.implementation(endpoint.apiVersion, req, res, next);
+      return await endpoint.config.implementation(req, res, next);
     }
   );
 }
