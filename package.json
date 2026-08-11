@@ -38,5 +38,6 @@
   "maintainers": [
     "Tushar Pandey <tusharpandey13@gmail.com> (https://github.com/tusharpandey13)"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@4.18.0"
 }
